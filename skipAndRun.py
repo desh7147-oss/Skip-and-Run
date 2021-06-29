@@ -33,7 +33,7 @@ screen = pygame.display.set_mode([SCREEN_WIDTH,SCREEN_HEIGHT])
 pygame.mixer.init()
 
 # load background music
-pygame.mixer.music.load("P:\dev\EAinternship\pygame\skipAndRun\pygame-a-primer_Apoxode_-_Electric_1.mp3")
+pygame.mixer.music.load("P:\dev\EAinternship\pygame\skipAndRun\_Apoxode_-_Electric_1.mp3")
 pygame.mixer.music.play( loops = -1)
 
 # moving up,down and collision sounds
