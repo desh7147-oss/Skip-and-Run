@@ -37,9 +37,9 @@ pygame.mixer.music.load("P:\dev\EAinternship\pygame\skipAndRun\pygame-a-primer_A
 pygame.mixer.music.play( loops = -1)
 
 # moving up,down and collision sounds
-move_up_sound   = pygame.mixer.Sound("P:\dev\EAinternship\pygame\skipAndRun\pygame-a-primer_Rising_putter.ogg")
-move_down_sound = pygame.mixer.Sound("P:\dev\EAinternship\pygame\skipAndRun\pygame-a-primer_Falling_putter.ogg")
-collision_sound = pygame.mixer.Sound(os.path.join("skipAndRun\pygame-a-primer_Collision.ogg"))
+move_up_sound   = pygame.mixer.Sound("P:\dev\EAinternship\pygame\skipAndRun\_Rising_putter.ogg")
+move_down_sound = pygame.mixer.Sound("P:\dev\EAinternship\pygame\skipAndRun\_Falling_putter.ogg")
+collision_sound = pygame.mixer.Sound(os.path.join("skipAndRun\_Collision.ogg"))
 
 
 # initializing pygame
